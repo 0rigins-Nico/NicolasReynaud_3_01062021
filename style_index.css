@@ -12,7 +12,7 @@ figure{
 
 body{
     margin: 0;
-    width: fit-content;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -31,7 +31,6 @@ ul{
 }
 
 /*Mobile First*/
-
 
 
 @media screen and (min-width: 800px){
