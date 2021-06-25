@@ -3,8 +3,42 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Shrikhand', cursive;
 */
 
-/*Responsive Mobile*/
+/*Mise en page*/
 
-@media screen and (max-width: 480px) {
+figure{
+    margin: 0;
+}
 
+body{
+    margin: 0;
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style-type : none;
+}
+
+h2{
+    font-family: 'Shrikhand', cursive;
+}
+
+/*Mobile First*/
+
+@media screen and (min-width: 800px){
+    
+}
+
+@media screen and (min-width: 1200px){
+    
 }
