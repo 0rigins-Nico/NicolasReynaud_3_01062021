@@ -34,7 +34,7 @@ img{
     width: 100%;
 }
 
-h3{
+h5{
     font-family: 'Shrikhand', cursive;
 }
 
@@ -42,6 +42,18 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.about{
+    text-align: center;
+    font-size: 300%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #CECECE;
+}
+
+.fonctionnement{
+    padding: 50px;
 }
 
 /*Mobile First*/
