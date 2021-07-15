@@ -130,11 +130,18 @@ main{
     margin-bottom: 50px;
 }
 
+.button_order:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000;
+    filter: brightness(1.15);
+}
+
 button{
     border: none;
     background-color: transparent;
     color: white;
     font-size: 191%;
+    cursor: pointer;
 }
 
 footer{
@@ -159,7 +166,7 @@ footer ul{
     row-gap: 15px;
 }
 
-/*Mobile First*/
+/*Responsive*/
 
 @media screen and (min-width: 800px){
     
