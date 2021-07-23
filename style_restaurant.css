@@ -98,6 +98,7 @@ main{
     margin-bottom: 50px;
 }
 
+
 .plat_1, .plat_2, .plat_3{
     margin-bottom: 100px;
 }
@@ -110,7 +111,33 @@ main{
     margin-bottom: 25px;
     border-radius: 25px;
     box-shadow: 2px 2px 10px #c4c3c0;
+}
+
+.description_prix{
+    display: flex;
+    align-items: flex-end;
+}
+
+.fa-check-circle:before {
+    content: "\f058";
+    color: white;
+}
+
+.check{
+    position: absolute;
+    display: flex;
+    -webkit-box-align: center;
     align-items: center;
+    background-color: #99e2d0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 1rem 1rem 0;
+    font-size: 1.25rem;
+    padding: 1rem 1.25rem;
+    top: 0;
+    right: 0;
+    height: 100%;
+    transform: translateX(5rem);
 }
 
 .button_order{
@@ -127,7 +154,6 @@ main{
     transition: transform 500ms;
     opacity: 1;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .button_order:hover{
