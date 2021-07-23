@@ -195,9 +195,30 @@ footer ul{
 /*Responsive*/
 
 @media screen and (min-width: 800px){
+
+    h5 {
+        font-family: 'Shrikhand', cursive;
+        margin-bottom: 45px;
+        font-weight: normal;
+        font-size: 300%;
+    }
     
 }
 
 @media screen and (min-width: 1200px){
     
+    footer {
+        background-color: #353535;
+        padding: 50px;
+        color: white;
+        text-align: center;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        row-gap: 15px;
+        align-items: center;
+    }
 }
